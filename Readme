@@ -1,0 +1,17 @@
+Install dependencies
+Start server inside back end folder
+
+node index.js
+
+/api/comics is where the proxy.
+You might need to config the .env file with your credentials.
+
+After that from the front end folder install the dependencies
+yarn 
+yarn start
+
+/comics is the route that will hit the api.
+
+You can sort, or filter. Some of the comics have optional parameters to render more
+details about the comics.
+
